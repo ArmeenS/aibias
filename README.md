@@ -1,4 +1,5 @@
-Excel-to-DALL-E Image Generator
+# Excel-to-DALL-E Image Generator:
+
 This Python script is designed to automate the process of generating images using OpenAI's DALL-E based on prompts listed in an Excel sheet. The script reads prompts from specified cells, generates corresponding images using the DALL-E API, and inserts these images into designated cells in the same or different Excel sheets. This tool is particularly useful for research projects or any tasks where large-scale image generation is needed based on structured inputs.
 
 Key Features:
