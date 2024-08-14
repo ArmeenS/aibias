@@ -5,32 +5,32 @@ This Python script is designed to automate the process of generating images usin
 
 Key Features:
 
-Automated Image Generation: Reads prompts from an Excel sheet and generates images using OpenAI's DALL-E API.
+1. Automated Image Generation: Reads prompts from an Excel sheet and generates images using OpenAI's DALL-E API.
 
-Excel Integration: Automatically inserts generated images into specified cells in the Excel workbook.
+2. Excel Integration: Automatically inserts generated images into specified cells in the Excel workbook.
 
-Error Handling: Includes error handling for API errors with a retry mechanism.
+3. Error Handling: Includes error handling for API errors with a retry mechanism.
 
-Customizable: Easily configurable to handle different sheets, cells, and prompts within the Excel workbook.
+4. Customizable: Easily configurable to handle different sheets, cells, and prompts within the Excel workbook.
 
 
 Requirements:
 
-Python 3.x
+1. Python 3.11
 
-openpyxl for handling Excel files.
+2. openpyxl for handling Excel files.
 
-requests for downloading images.
+3. requests for downloading images.
 
-openai package for interacting with OpenAI's API.
+4. openai package for interacting with OpenAI's API.
 
-An OpenAI API key.
+5. An OpenAI API key.
 
 
 Usage:
 
-Prepare an Excel file (input.xlsx) with prompts in the designated cells.
+1. Prepare an Excel file (input.xlsx) with prompts in the designated cells.
 
-Run the script to generate and insert images into the workbook.
+2. Run the script to generate and insert images into the workbook.
 
-The output is saved as output.xlsx.
+3. The output is saved as output.xlsx.
